@@ -4,11 +4,11 @@ inherits: wercker/ubuntu12.04-webessentials@0.0.12
 type: main
 platform: ubuntu@12.04
 packages:
-  - ruby@2.1.1-p76
+  - ruby@2.1.1
 keywords:
   - ruby
 script: |
-  export RUBYVERSION=2.1.1-p76
+  export RUBYVERSION=2.1.1
   sudo apt-get update
   sudo apt-get install git zlib1g-dev libreadline-dev libqtwebkit-dev
   sudo apt-get remove ruby1.9.1
