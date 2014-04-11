@@ -30,6 +30,8 @@ script: |
   echo "RAILS_ENV=test" | sudo tee -a /etc/environment
   echo "RACK_ENV=test" | sudo tee -a /etc/environment
 
+  wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
 box-detect:
   priority : 150
   version :
