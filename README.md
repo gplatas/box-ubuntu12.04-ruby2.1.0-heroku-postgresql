@@ -1,9 +1,10 @@
-# ubuntu12.04-ruby2.0.0 box
+# ubuntu12.04-ruby2.1.0 box
 
 An ubuntu box containing Ruby 2.0.0-p353.
 
 # What's new
 
+- Update Ruby version to 2.1.0 and Bundler 1.6.2
 - Update Ruby version to 2.0.0-p353
 
 # License
